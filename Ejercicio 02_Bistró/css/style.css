@@ -1,0 +1,401 @@
+/* CSS general */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* CSS header */
+    /* CSS nav */
+/* nav{
+    width: auto;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.8);
+}  */
+.menu-flotante {
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.menu-flotante ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+.menu-flotante ul li {
+    margin: 10px 0;
+    margin-left: 650px;
+}
+.menu-flotante ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    float: left;
+    text-transform: uppercase;
+    font-family:"Roboto Slab", serif;
+    margin: 0px 30px 0px 0px;
+}
+.menu-flotante ul li a:hover {
+  background-color: rgba(182, 133, 27, 0.733);
+}
+header{
+    width: auto;
+    height: 940px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+nav h1{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 36px;
+    color: rgb(238, 238, 238);
+    display: inline;
+    float: left;
+    margin-left: 150px;
+}
+.bbq{
+    width: 208px;
+    height: 263px;
+    display: block;
+    margin: auto;
+    padding-top: 250px;
+}
+.titulo{
+    color: rgb(238, 238, 238);
+    font-family: "Roboto Slab", 'Times New Roman', Times, serif;
+    font-size: 45px;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    width: 500px;
+    text-align: center;
+}
+.phone{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: "Roboto Slab", 'Times New Roman', serif;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(182, 133, 27);
+    width: 286px;
+    /* height: 56px; */
+    border-radius: 45px;
+    font-family: "Roboto Slab", 'Times New Roman', serif;
+    padding: 25px 30px 30px 30px;
+    line-height: 0px;
+}
+.button:hover{
+    color: rgb(182, 133, 27);
+    background-color: rgba(0, 0, 0, 0.521);
+    border: 1px solid rgb(182, 133, 27);
+}
+.our{
+    background-color: aqua;
+    width: auto;
+    height: 612px;
+}
+.our .left{
+    width: 999px;
+    height: 612px;
+    background-color: rgb(240, 240, 240);
+    float: left;
+}
+.our .left h2{
+    color: rgb(182, 133, 27);
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: "Roboto Slab", 'Times New Roman', serif;
+    padding-top: 160px;
+    padding-bottom: 40px;
+}
+.our .left blockquote{
+    color: rgb(26, 26, 26);
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: "Roboto Slab", 'Times New Roman', serif;
+    text-transform: uppercase;
+    width: 400px;
+    padding-bottom: 40px;
+}
+.our .left p{
+    color: rgb(80, 80, 80);
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: "Roboto Slab", 'Times New Roman', serif;
+    width: 800px;
+    padding-bottom: 50px;
+}
+.our .left img{
+    display: block;
+    margin: auto;
+}
+.our .right{
+    width: 664px;
+    height: 612px;
+    background-color: blue;
+    float: left;
+}
+.menu .discover{
+    width: 100%;
+    height: 612px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/gallery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    padding: 225px 0px;
+}
+.menu .discover .font01{
+    color: rgb(238, 238, 238);
+    font-family: "Roboto Slab", 'Times New Roman', Times, serif;
+    font-size: 80px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+.menu .discover .font02{
+    color: rgb(182, 133, 27);
+    font-family: "Pacifico", serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 100;
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: -30px;
+}
+.menu .reservation .left{
+    width: 999px;
+    height: 612px;
+    float: left;
+}
+.menu .reservation .left .font01{
+    color: rgb(0, 0, 0);
+    font-family: "Roboto Slab", 'Times New Roman', Times, serif;
+    font-size: 40px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 150px;
+}
+.menu .reservation .left .font02{
+    color: rgb(182, 133, 27);
+    font-family: "Pacifico", serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: -40px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+    top: -30px;
+}
+.menu .reservation .left p{
+    color: rgb(80, 80, 80);
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: "Roboto Slab", 'Times New Roman', serif;
+    width: 800px;
+    padding-bottom: 50px;
+    position: relative;
+    top: -30px;
+}
+.menu .reservation .left .fecha{
+    color: rgb(182, 133, 27);
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: "Roboto Slab", 'Times New Roman', serif;
+    position: relative;
+    top: -35px;
+}
+.fecha input[type="date"],
+.fecha input[type="time"],
+.fecha input[type="number"],
+.fecha input[type="email"]{
+    width: 25% !important;
+    padding: 10px !important;
+    font-size: 16px !important;
+    color: #333 !important;
+    background-color: rgb(230, 230, 230) !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+    border-radius: 15px !important;
+    box-sizing: border-box !important;
+    transition: border-color 0.3s ease !important;
+    margin-left: -220px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.fecha input[type="date"]{
+    margin-left: -230px;
+}
+.fecha input[type="number"]{
+    margin-left: -243px;
+}
+.fecha input[type="submit"]{
+    width: 20% !important;
+    padding: 10px !important;
+    font-size: 24px !important;
+    color: rgb(182, 133, 27) !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    position: relative;
+    top: 0px;
+}
+label{
+    float: left;
+    margin-left: 250px;
+}
+.line{
+    width: 20%;
+    height: 1px;
+    background-color: rgb(182, 133, 27);
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -40px;
+}
+.menu .reservation .right .img01{
+    width: 332px;
+    height: 306px;
+    background-image: url(../images/mazorca.jpg);
+    float: left;
+    border: 5px solid white;
+}
+.menu .reservation .right .img02{
+    width: 332px;
+    height: 306px;
+    background-image: url(../images/asado.jpg);
+    float: left;
+    border: 5px solid white;
+}
+.menu .reservation .right .img03{
+    width: 332px;
+    height: 306px;
+    background-image: url(../images/cruda.jpg);
+    float: left;
+    border: 5px solid white;
+}
+.menu .reservation .right .img04{
+    width: 332px;
+    height: 306px;
+    background-image: url(../images/agua.jpg);
+    float: left;
+    border: 5px solid white;
+}
+.map{
+    width: auto;
+    height: 612px;
+    float: left;
+}
+footer{
+    width: 100%;
+    height: 306px;
+    background-color: rgb(245, 245, 245);
+    float: left;
+}
+.follow{
+    color: rgb(182, 133, 27);
+    font-size: 20px;
+    font-family: "Roboto Slab", 'Times New Roman', serif;
+    width: 50%;
+    float: left;
+    position: relative;
+    left:200px;
+    top: 80px;
+}
+.right02{
+    color: rgb(182, 133, 27);
+    font-size: 20px;
+    font-family: "Roboto Slab", 'Times New Roman', serif;
+    text-decoration: none;
+    float: left;
+    width: 150px;
+    position: relative;
+    left: 330px;
+    top: 80px;
+}
+.line02{
+    width: 80%;
+    height: 1px;
+    background-color: rgb(182, 133, 27);
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 150px;
+}
+.end01{
+    color: rgb(83, 83, 83);
+    font-size: 25px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: "Roboto Slab", 'Times New Roman', serif;
+    position: relative;
+    bottom: -140px;
+}
+.end02{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-size: 25px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: "Roboto Slab", 'Times New Roman', serif;
+}
+.end03{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-size: 25px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: "Roboto Slab", 'Times New Roman', serif;
+}

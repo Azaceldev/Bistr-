@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Angel Puebla Herrero">
+        <meta name="Description" content="Bistró es un cafe tranquilo en burgos con pinchos excepcionales y vinos de la tierra">
+        <title>Bistró</title>
+            <!-- Css link -->
+            <link rel="stylesheet" href="css/style.css">
+
+            <!-- Google font Stylesheets -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <nav class="menu-flotante">
+            <h1>Bistró</h1>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Home</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Menu</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Gallery</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Giftcard</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Catering</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <img class="bbq" src="images/bistro-bbq.png" alt="bistro bbq">
+            <h2 class="titulo">Real charcoal bbq authentic taste</h2>
+            <a class="phone" href="tel:+44 000 444 11">Call:+44 000 444 11</a>
+            <a class="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Discover now</a>
+        </header>
+        <main>
+            <section class="our">
+                <div class="left">
+                    <h2>_est 1971_</h2>
+                    <blockquote>This is not a just a piece of meat This is a piece of Heaven</blockquote>
+                    <p>Elan en no mies tupa pois ja. Roustuneen tuhattakin kaljamalla ela eli nae kai. Ai saat tule ne mika ihan elan. Jatkaessa et ajattelin no ai rik kabi baazaar ta ver kkonne teistakin. Pitkana hanella vanhaan en insecx no totinen. Onko eli isa toi tuon jota vaan sen. Ilmestys nyt toivoisi toi vaylalta vedappas kahdella tarvitisi jos.</p>
+                    <img src="images/signature.png" alt="signature">
+                </div>
+                <div class="right">
+                    <img src="images/chef.jpg" alt="chef">
+                </div>
+            </section>
+            <section class="menu">
+                <div class="discover">
+                    <h2><span class="font01">Discover our </span><span class="font02">menu</span></h2>
+                </div>
+                <div class="reservation">
+                    <div class="left">
+                        <h2><span class="font01">Make a </span><span class="font02">reservation</span></h2>
+                        <p>Donec non cursus sapien, vel aliquet dui cum sociis natoque penatibus et magnis dis partuirent montes nascetur ridiculus muslorem.</p>
+                        <form action="/enviar-reserva" method="POST">
+                            <!-- Campo para la fecha de la reserva -->
+                            <div class="fecha">
+                                <label for="fecha">Fecha de la reserva:</label>
+                                <input type="date" id="fecha" name="fecha" required>
+                            </div> 
+                        
+                            <!-- Campo para la hora de la reserva -->
+                            <div class="fecha">
+                                <label for="hora">Hora de la reserva:</label>
+                                <input type="time" id="hora" name="hora" required>
+                            </div class="fecha">
+                        
+                            <!-- Campo para el número de personas -->
+                            <div class="fecha">
+                                <label for="personas">Número de personas:</label>
+                                <input type="number" id="personas" name="personas" min="1" required>
+                            </div>
+                        
+                            <!-- Campo para el correo electrónico -->
+                            <div class="fecha">
+                                <label for="email">Correo electrónico:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        
+                            <!-- Botón de envío -->
+                            <div class="fecha">
+                                <input type="submit" value="Find a table">
+                            </div>
+                        </form>
+                            <div class="line"></div>
+                    </div>
+                    <div class="right">
+                        <div class="img01"><img src="" alt=""></div>
+                        <div class="img02"><img src="" alt=""></div>
+                        <div class="img03"><img src="" alt=""></div>
+                        <div class="img04"><img src="" alt=""></div>
+                    </div>
+                </div>
+            </section>
+            <section class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2948.9177231239332!2d-3.6908694!3d42.3442775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd45fd35898326d3%3A0x286005220e837c97!2sBISTRO%20CAF%C3%89%20BURGOS!5e0!3m2!1ses!2ses!4v1730887171189!5m2!1ses!2ses" width="1660" height="612" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+        </main>
+        <footer>
+            <div>
+                <div class="follow">
+                    <span>Follow Us</span>
+                    <a href="https://www.instagram.com/tu_usuario/" target="_blank">
+                        <i class="fab fa-instagram" style="font-size: 30px; color: rgb(182, 133, 27);"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook" style="font-size: 30px; color: rgb(182, 133, 27);"></i>
+                    </a>
+                    <a href="https://x.com/" target="_blank">
+                        <i class="fab fa-twitter" style="font-size: 30px; color: rgb(182, 133, 27);"></i>
+                    </a>
+                </div>
+                <div>
+                    <a class="right02" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Send Gift Card ||</a>
+
+                    <a class="right02" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Contact with us</a>
+                </div>
+                <div class="line02"></div>
+                <div class="end01">
+                    <h4>18 Chalk Farm Road, Camden NW1 8AG</h4>
+                    <a class="end02" href="mailto:hi@tagoartwork.com">hi@tagoartwork.com</a>
+                    <a class="end03" href="tel:+34647578226">Tlfn. +34 647 57 82 26</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
